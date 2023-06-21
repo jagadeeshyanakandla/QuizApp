@@ -1,0 +1,67 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100&family=Inria+Serif:wght@300&family=Kanit:wght@100&family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Oleo+Script+Swash+Caps&family=Public+Sans:wght@100&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkorchid;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+   
+    font-family: 'Blinker', sans-serif;
+font-family: 'Inria Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Public Sans', sans-serif;
+
+}
+
+.quiz-container{
+    background-color: chartreuse;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px brown;
+    width: 600px;
+    /* height: 300px; */
+    overflow: hidden;
+} 
+h3{
+    padding: 1rem;
+    align-items: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+ul li{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background-color: darkgreen;
+    color: azure;
+}
+.btn:hover{
+    background-color: chartreuse;
+}
+.btn:focus{
+    background-color: mediumorchid;
+}
+
+
+   
